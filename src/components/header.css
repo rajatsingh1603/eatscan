@@ -1,0 +1,15 @@
+.company_logo{
+   
+    padding: 15px;
+   
+    
+}
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+}
+.company_logo > h1{
+    height: 20px
+}

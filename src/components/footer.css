@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    background-color: #ffff;
+    padding: 15px;
+    justify-content: space-around
+}
+.total_price{
+    display: flex;
+}
+.actual_price{
+    font-weight: normal;
+}
