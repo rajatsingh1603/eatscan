@@ -1,0 +1,12 @@
+.tick,.recieved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check{
+    height: 150px;
+    /* width: 200px; */
+}
+.check-container{
+    margin: 100px;
+}

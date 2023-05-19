@@ -1,18 +1,9 @@
-.footer{
+.order-summary-text{
     display: flex;
-    position: sticky;
-    bottom: 0;
-    background-color: #ffff;
-    padding: 15px;
-    justify-content: space-around
+    justify-content: center;
+    align-items: center;
 }
-.total_price{
-    display: flex;
-}
-.actual_price{
-    font-weight: normal;
-}
-.next-button{
+.next-button-checkout{
     padding: 15px;
     width: 160px;
     height: 60px;
@@ -25,8 +16,4 @@
     font-size: 18px;
     color: #fff;
     font-weight: bold;
-}
-.link{
-    text-decoration: none;
-    color: inherit;
 }

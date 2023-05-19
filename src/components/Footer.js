@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../components/footer.css'
 const Footer = ()=>{
     return(
@@ -9,10 +10,10 @@ const Footer = ()=>{
             </div>
             <div className="next">
                 
-                {/* <button>Next</button> */}
-               
-                
-                <h2>Next</h2>
+                <button className='next-button'>
+                    <Link to="checkout" className='link'>Next</Link>
+                </button>  
+                {/* <h2>Next</h2> */}
             </div>
         </div>
         </>
